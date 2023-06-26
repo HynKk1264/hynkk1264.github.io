@@ -9,27 +9,27 @@ body{
 	padding: 100px 0;
 }
 
-.carousel-item{
+#homeCarousel .carousel-item{
 	height: 100vh;
 	min-height: 300px;
 }
-.carousel-caption{
+#homeCarousel .carousel-caption{
 	bottom: 220px;
 	z-index: 2;
 }
-.carousel-caption h5{
+#homeCarousel .carousel-caption h5{
 	font-size: 45px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 25px;
 }
-.carousel-caption p{
+#homeCarousel .carousel-caption p{
 	width: 60%;
 	margin: auto;
 	font-size: 18px;
 	line-height: 1.9;
 }
-.carousel-inner::before{
+#homeCarousel .carousel-inner::before{
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -71,7 +71,7 @@ body{
 	transform: scale(1.1);
 }
 
-.cuisine .card {
+/*.cuisine .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 	width: 200px;
 	height: 300px;
@@ -81,22 +81,46 @@ body{
 }
 .cuisine .card:hover{
 	transform: scale(1.1);
+}*/
+
+
+.cuisine .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.cuisine .image-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cuisine .image-wrapper img{
+  max-height: 100%;
+  max-width: 100%;
+}
+.cuisine .card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.cuisine .carousel-inner {
+  padding: 0.5em;
 }
 
 
 /* === REPONSIVE === */
 
 @media only screen and (max-width: 768px) and (max-width:991px){
-	.carousel-caption{
+	#homeCarousel .carousel-caption{
 		bottom: 370;
 	}
-	.carousel-caption p{
+	#homeCarousel .carousel-caption p{
 		width: 100%;
 	}
-	.card {
+	#homeCarousel .card {
 		margin-bottom: 30px;
 	}
-	.img-area img{
+	#homeCarousel .img-area img{
 		width: 100%;
 	}
 }
@@ -125,4 +149,7 @@ body{
 	.card{
 		margi-bottom: 30px;
 	}
+	.cuisine .card img {
+    height: 11em;
+  }
 }
