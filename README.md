@@ -22,6 +22,10 @@ To view the website locally, follow these steps:
 2. Navigate to the project directory: `cd lan-vuong-tourism`
 3. Open the `index.html` file in your preferred web browser.
 
+## Access the Website
+
+You can access the Lan Vuong Tourism Website online by visiting the following link: `https://hynkk1264.github.io/lan-vuong-tourism/`
+
 ## Features
 
 The Lan Vuong Tourism Website offers the following features:
