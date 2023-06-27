@@ -19,7 +19,7 @@ The following technologies were used to develop the website:
 To view the website locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/hynkk1264/lan-vuong-tourism.git`
-2. Navigate to the project directory: `cd lan-vuong-tourism-website`
+2. Navigate to the project directory: `cd lan-vuong-tourism`
 3. Open the `index.html` file in your preferred web browser.
 
 ## Features
